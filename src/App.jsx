@@ -38,7 +38,7 @@ function App() {
                     {filteredStudents.map((student) => (
                         <li key={student.name}>
                             <p>
-                                {student.name} 나이:{student.age} 성적:{student.grade}
+                                서명: {student.name} 나이: {student.age} 성적: {student.grade}
                             </p>
                         </li>
                     ))}
